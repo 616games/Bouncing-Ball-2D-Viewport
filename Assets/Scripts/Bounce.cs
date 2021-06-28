@@ -4,7 +4,7 @@ using Random = UnityEngine.Random;
 public class Bounce : MonoBehaviour
 {
     /// <summary>
-    /// How fast the ball should change position.
+    /// The desired speed of the ball's displacement.
     /// </summary>
     [SerializeField]
     private float _speed;
