@@ -3,6 +3,8 @@ using Random = UnityEngine.Random;
 
 public class Bounce : MonoBehaviour
 {
+    #region --Fields / Properties--
+    
     /// <summary>
     /// The desired speed of the ball's displacement.
     /// </summary>
@@ -39,6 +41,8 @@ public class Bounce : MonoBehaviour
     /// Camera's viewport position in world space.
     /// </summary>
     private Vector3 _viewport;
+    
+    #endregion
 
     #region --Unity Specific Methods--
     
